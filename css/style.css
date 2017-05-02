@@ -83,6 +83,11 @@ li:hover a{
     text-decoration: underline;
 }
 
+#Selected{
+    color: #f9ed32;
+    text-decoration: underline;
+}
+
 ul li{
     list-style: none;
     display: inline;
@@ -125,7 +130,8 @@ h2 {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #000;
+    background-color: #fff;
+    z-index: 99999;
 
 
 }
