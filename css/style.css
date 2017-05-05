@@ -27,6 +27,8 @@ body {
     background-size: calc(1.25*711px) calc(1.25*539px); */
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizedLegibility;
+    padding: 0;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -73,6 +75,7 @@ body {
 
 #menu ul li {
     padding: 5px;
+    
 
 }
 
@@ -124,8 +127,7 @@ h2 {
     padding: 0px 0px -2px 2px;
     display: inline;
     background-color: #000;
-    color: #fff;
-    
+    color: #fff;    
 }
 
 
@@ -138,5 +140,6 @@ h2 {
 
 #content{
     position: absolute;
+    top: 10%;
 }
 

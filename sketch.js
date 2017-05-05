@@ -6,7 +6,7 @@ var next;
 var canvas;
 
 function setup() {
-  canvas = createCanvas(window.innerWidth+20, window.innerHeight+20);
+  canvas = createCanvas(windowWidth, windowHeight);
   w = 10;
   // Calculate columns and rows
   columns = floor(width/w);
@@ -22,6 +22,10 @@ function setup() {
     next[i] = new Array(rows);
   }
   init();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -86,3 +90,4 @@ function generate() {
   board = next;
   next = temp;
 }
+
