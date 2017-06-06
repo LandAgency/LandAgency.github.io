@@ -69,6 +69,14 @@ h1{
 	max-height: 800px;
 }
 
+.project-grid{
+	padding: 50px;
+}
+
+.project-grid-bottom{
+	padding-bottom: 50px;
+}
+
 img {
 	width: 100%;
 }
