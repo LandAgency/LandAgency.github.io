@@ -18,7 +18,7 @@ body{
 	font-family: 'Eczar', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
 	background-color: #458867;
 	filter: blur(13px);
-	background: url(../LAimages/LandAgency-Boston-BKGD.png) no-repeat center center fixed;
+	background: url(../LAimages/LandAgency-Tree-Blur.png) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -112,7 +112,6 @@ h1{
 
 #white{
 	color: white;
-	vertical-align: middle;
 }
 
 #white:hover{
@@ -171,9 +170,10 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
-	line-height: 1.25;
+	line-height: 1.2;
 	text-align: center;
 	max-width: 500px;
+	margin-bottom: 0;
 }
 
 #about-section {
@@ -186,9 +186,19 @@ p {
 }
 
 #projects-section {
-	height: 90vh;
+	height: 100vh;
 	max-height: 1000px;
+	padding-bottom: 50px;
 	margin: 0px;
+}
+
+#btn-more{
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #518d6e;
+	border-color: #518d6e;
 }
 
 #submit{
@@ -219,9 +229,17 @@ p {
 
 #p-white{
 	background-color: #fff;
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 500px;
+	width: 700px;
 }
 
-
+#project-img{
+	width: 450px;
+	margin-top: -20px;
+	margin-left: 50px;
+}
 
 #LA-head {
 	height: 50vh;
