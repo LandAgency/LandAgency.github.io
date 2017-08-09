@@ -270,15 +270,21 @@ label{
 }
 
 button{
+	font-family: 'OSPDINDIN', sans-serif;
+	text-transform: uppercase;
 	margin: 15px 0 0 15px;
 	background-color: #518d6e;
 }
 
 
 .btn {
+	font-family: 'OSPDINDIN', sans-serif;
+	font-size: 1.5rem;
+	text-transform: uppercase;
 	background-color: #518d6e;
 	border-color: #518d6e;
 	cursor: pointer;
+	border-radius: 0;
 }
 
 .btn:hover {
