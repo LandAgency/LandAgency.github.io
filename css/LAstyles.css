@@ -33,7 +33,7 @@ body{
 	height: 350px;
 	margin-right: auto;
 	margin-left: auto;
-
+	opacity: 0.9;
 }    
 
 /* NAV */
@@ -226,6 +226,9 @@ p {
 	min-height: 20px;
 }
 
+.col-5{
+	min-width: 300px;
+}
 
 #p-white{
 	background-color: #fff;
