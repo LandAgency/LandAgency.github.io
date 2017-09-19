@@ -1,0 +1,240 @@
+/* -------------------------------------------------------
+
+Land Agency //
+
+Land-Agency.com
+LandAgency.net
+
+Version: 1
+
+Author: Jonathan Culp
+
+Contact: JonathanCulp.com
+
+----------------------------------------------------- */
+/** { transition: all 1s; }*/
+* { box-sizing: border-box;}
+
+html{
+  font-size: 1rem;
+}
+
+
+/* BODY */
+body{
+	font-family: 'Roboto', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 1200px;
+}
+
+
+/* Header */
+header{
+  order: 1;
+  flex: 100%;
+  min-height: 250px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.tilt-content{
+  transform-style: preserve-3d;
+}
+
+/* General */
+a{
+  color: #000;
+}
+
+a:hover{
+  color: #458867;
+  transition: all 1s;
+}
+
+.LA-Logo{
+  font-family: 'OSPDINDIN', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#LA-Logo-L{
+  font-size: 3rem;
+}
+
+.quotes{
+  margin: 0;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.content-title{
+  font-family: 'OSPDINDIN', sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: normal;
+
+}
+
+.content-subtitle{
+  margin: 0;
+}
+
+.content-type{
+  font-size: 1.25rem;
+  color: #fff;
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  text-align: right;
+  height: 100%;
+  padding: .5em;
+  margin: 0;
+}
+
+/* About */
+.about{
+  order: 2;
+  flex: 100%;
+  font-size: 2.25rem;
+  line-height: 1.5;
+  padding-bottom: 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #999;
+}
+
+.about p{
+  margin-bottom: .5em;
+}
+
+
+/* Interview */
+.interview{
+  order: 3;
+  flex: 60%;
+  height: 20vmax;
+  min-height: 300px;
+  margin-bottom: 2em;
+}
+
+.interview-img{
+	background: url(../images/interview-photo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.interview-content{
+  float: right;
+  padding: 0 0 0 .5em;
+  width: 60%;
+}
+
+#interview-title{
+  margin: 0;
+  margin-left: -40px;
+}
+
+
+/* Projects */
+.projects{
+  order: 4;
+  flex: 40%;
+  height: 100%;
+  margin-bottom: 2em;
+  min-width: 250px;
+  font-size: 20px;
+}
+
+#circle{
+  margin: auto;
+  background: #CC9900;
+  width: 20vmax;
+  height: 20vmax;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+/* Longform */
+.longform{
+  order: 5;
+  flex: 100%;
+  background-color: cyan;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  background: url(../images/WatertownApt.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+  transform-style: preserve-3d;
+}
+
+.longform-box{
+  width: 40%;
+  min-width: 250px;
+  height: 300px;
+  background-color: #888;
+
+  transform: translateZ(50px);
+}
+
+#longform-title{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: -50px;
+  transform: translateZ(75px);
+}
+
+
+/* Footer */
+footer{
+  order: 6;
+  flex: 100%;
+  text-align: left;
+  font-size: 14px;
+  border-top: 1px solid #999;
+  margin-bottom: 2em;
+}
+
+/* Resize */
+ @media (max-width: 1000px) {
+
+   html{
+     font-size: .8rem;
+   }
+
+   #circle{
+     height: 30vmin;
+     width: 30vmin;
+   }
+
+   .quotes{
+     display: inline-block;
+   }
+}
+
+/* Resize */
+ @media (max-width: 650px) {
+
+   html{
+     font-size: .7rem;
+   }
+
+	#circle{
+    height: 75vmin;
+    width: 75vmin;
+  }
+}
