@@ -5,7 +5,7 @@ Land Agency //
 Land-Agency.com
 LandAgency.net
 
-Version: 1
+Version: 2
 
 Author: Jonathan Culp
 
@@ -39,10 +39,6 @@ header{
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
-}
-
-.tilt-content{
-  transform-style: preserve-3d;
 }
 
 /* General */
@@ -176,8 +172,6 @@ a:hover{
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
-  transform-style: preserve-3d;
 }
 
 .longform-box{
@@ -185,8 +179,6 @@ a:hover{
   min-width: 250px;
   height: 300px;
   background-color: #888;
-
-  transform: translateZ(50px);
 }
 
 #longform-title{
@@ -195,7 +187,6 @@ a:hover{
   margin: 0;
   text-align: center;
   margin-top: -50px;
-  transform: translateZ(75px);
 }
 
 
