@@ -47,7 +47,7 @@ a{
 }
 
 a:hover{
-  color: #458867;
+  color: #385E4A;
   transition: all 1s;
 }
 
@@ -149,7 +149,7 @@ a:hover{
 
 #circle{
   margin: auto;
-  background: #458867;
+  background: #385E4A;
   width: 20vmax;
   height: 20vmax;
   border-radius: 50%;
