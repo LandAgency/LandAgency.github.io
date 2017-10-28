@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 786 413.2">
-
-<defs>
-	<style>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 786 413.2">
+  <style>
     .st0{fill:none;stroke:#395F4B;stroke-width:20;stroke-miterlimit:10;stroke-dasharray:500;} .st1{fill:#395F4B;} .st2{fill:#010101;}
   </style>
-</defs>
-
   <g id="BOX">
-    <image width="1050" height="700" id="LotImg" xlink:href="/images/Lot.jpg" transform="translate(219.75 37.75) scale(.4342)" overflow="visible"/>
+    <image width="1050" height="700" id="LotImg" xlink:href="/images/DM.jpg" transform="translate(219.75 16.748) scale(.4404)" overflow="visible"/>
   </g>
   <g id="OBJ">
     <path id="Line" class="st0" d="M367 210.3h419"/>
