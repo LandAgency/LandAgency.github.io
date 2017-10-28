@@ -1,84 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 786 413.2">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 786 413.2" style="enable-background:new 0 0 786 413.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#395F4B;stroke-width:20;stroke-miterlimit:10;stroke-dasharray:500;}
+	.st1{fill:#395F4B;}
+	.st2{fill:#010101;}
+</style>
+<g id="BOX">
 
-<defs>
-  <style>
-    .st0{fill:none;stroke:#395F4B;stroke-width:20;stroke-miterlimit:10;} .st1{fill:#395F4B;} .st2{fill:#010101;}
-
-      <![CDATA[
-          #Line{
-          stroke-dasharray: 500;
-          stroke-dashoffset: 0;
-          -webkit-animation: dash 1s ease forwards;
-          -o-animation: dash 1s ease forwards;
-          -moz-animation: dash 1s ease forwards;
-          animation: dash 1s ease forwards;
-          }
-
-          @-webkit-keyframes dash {
-            from{
-              stroke-dashoffset: 500;
-            }
-            to{
-              stroke-dashoffset: 0;
-            }
-          }
-
-    .front{
-      animation: parallax-front 25s infinite ease-in-out;
-    }
-
-    .mid{
-      animation: parallax-mid 25s infinite linear;
-    }
-    .back{
-      filter:url(#effect-1);
-    }
-    .front, .mid, .back{
-          transform-origin: 50% 50%;
-    }
-
-    @keyframes parallax-front {
-      0%,100%  {transform: scale(1);}
-      50% {transform: scale(.95);}
-      }
-
-
-
-   @keyframes parallax-mid {
-        0% {transform: scale(.75);}
-        50% {transform: scale(1);}
-        100% {transform: scale(.75); }
-      }
-
-
-
-      ]]>
-
-  </style>
-</defs>
-
-  <g id="BOX" class="front" >
-    <image width="800" height="507" id="LotImg" xlink:href="/images/Lot.jpg" transform="translate(182.39 32) scale(.6248)" overflow="visible"/>
-  </g>
-  <g id="OBJ" >
-    <path id="Line" class="st0 front" d="M367 160h419"/>
-    <circle id="Circle" class="st1 mid" cx="682.2" cy="241.5" r="21.5"/>
-    <path id="Rect" class="st1 mid" d="M0 309h62v62H0z"/>
-    <path id="Tri" class="st1 mid" d="M181.9 43h-24.8l12.4-21.5L181.9 0l12.4 21.5L206.7 43z"/>
-  </g>
-  <g id="LA" >
-    <path id="L-Letter-L" class="st2" d="M29.3 220.2V88.9h18.8v112.5h37.5v18.8H29.3z"/>
-    <path id="L-Letter-A" class="st2" d="M117.4 88.9H136l28.1 131.3h-18.6l-5.6-28.1-26.5-.2-5.6 28.3H89.3l28.1-131.3zm9.2 37.5l-9.4 47.1h19l-9.3-47.1h-.3z"/>
-    <path id="L-Letter-N" class="st2" d="M172.7 88.9h18.8l18.8 65.7V88.9H229v131.3h-18.8l-18.8-65.7v65.7h-18.8V88.9z"/>
-    <path id="L-Letter-D" class="st2" d="M246.1 88.9h37.5c5.1 0 9.5 1.8 13.1 5.4 3.6 3.6 5.4 8.1 5.4 13.3v93.9c0 5.1-1.8 9.5-5.4 13.1-3.6 3.6-8 5.4-13.1 5.4h-37.5V88.9zm18.6 18.6v94.1h11.8c2 0 3.7-.7 5.1-2.1 1.4-1.4 2.1-3.1 2.1-5.1v-79.8c0-2-.7-3.7-2.1-5.1-1.4-1.4-3.1-2.1-5.1-2.1h-11.8z"/>
-    <path id="A-Letter-A" class="st2" d="M210.5 281.9h18.6l28.1 131.3h-18.6l-5.6-28.1-26.5-.2-5.6 28.3h-18.6l28.2-131.3zm9.2 37.5l-9.4 47.1h19l-9.3-47.1h-.3z"/>
-    <path id="A-Letter-G" class="st2" d="M273.7 290.2c5.5-5.5 12.1-8.3 19.9-8.3s14.4 2.8 19.9 8.3c5.5 5.5 8.2 12.2 8.2 19.9H303c0-2.6-.9-4.9-2.7-6.7s-4.1-2.7-6.7-2.7c-2.6 0-4.8.9-6.6 2.7-1.8 1.8-2.7 4.1-2.7 6.7v75c0 2.6.9 4.8 2.7 6.6 1.8 1.8 4 2.7 6.6 2.7 2.6 0 4.9-.9 6.7-2.7 1.8-1.8 2.7-4 2.7-6.6V357h-9.4v-18.8h28.1v46.9c0 7.8-2.7 14.4-8.2 19.9-5.5 5.5-12.1 8.2-19.9 8.2s-14.4-2.7-19.9-8.2c-5.5-5.5-8.2-12.1-8.2-19.9v-75c-.1-7.8 2.7-14.4 8.2-19.9z"/>
-    <path id="A-Letter-E" class="st2" d="M338.5 413.2V281.9h56.3v18.8h-37.5v37.5h28.1V357h-28.1v37.4h37.5v18.8h-56.3z"/>
-    <path id="A-Letter-N" class="st2" d="M406.4 281.9h18.8l18.8 65.7v-65.7h18.8v131.3H444l-18.8-65.7v65.7h-18.8V281.9z"/>
-    <path id="A-Letter-C" class="st2" d="M486.9 290.2c5.5-5.5 12.1-8.3 19.9-8.3 7.8 0 14.4 2.8 19.9 8.3 5.5 5.5 8.2 12.2 8.2 19.9v9.3h-18.7v-9.3c0-2.6-.9-4.9-2.7-6.7-1.8-1.8-4.1-2.7-6.7-2.7-2.6 0-4.8.9-6.6 2.7-1.8 1.8-2.7 4.1-2.7 6.7v75c0 2.6.9 4.8 2.7 6.6 1.8 1.8 4 2.7 6.6 2.7 2.6 0 4.9-.9 6.7-2.7 1.8-1.8 2.7-4 2.7-6.6v-9.4h18.7v9.4c0 7.8-2.7 14.4-8.2 19.9-5.5 5.5-12.1 8.2-19.9 8.2-7.8 0-14.4-2.7-19.9-8.2-5.5-5.5-8.2-12.1-8.2-19.9v-75c0-7.8 2.7-14.4 8.2-19.9z"/>
-    <path id="A-Letter-Y" class="st2" d="M541 281.9h19l14.1 56.1 13.8-56.1h19l-23.4 93.9v37.5h-19v-37.5L541 281.9z"/>
-  </g>
-
-<script xlink:href="vanilla-tilt.min.js" />
-
+		<image style="overflow:visible;enable-background:new    ;" width="1050" height="700" id="LotImg" xlink:href="../../../../Dropbox/GitHub/LandAgency.github.io/images/MA-Lot.jpg"  transform="matrix(0.4342 0 0 0.4342 219.75 37.7495)">
+	</image>
+</g>
+<g id="OBJ">
+	<path id="Line" class="st0" d="M367,210.3h419"/>
+	<circle id="Circle" class="st1" cx="682.2" cy="286.3" r="21.5"/>
+	<path id="Rect" class="st1" d="M0,307.8h62v62H0V307.8z"/>
+	<path id="Tri" class="st1" d="M181.9,41.8h-24.8l12.4-21.5l12.4-21.5l12.4,21.5l12.4,21.5H181.9z"/>
+</g>
+<g id="LA">
+	<path id="L-Letter-L" class="st2" d="M29.3,220.2V88.9h18.8v112.5h37.5v18.8H29.3z"/>
+	<path id="L-Letter-A" class="st2" d="M117.4,88.9H136l28.1,131.3h-18.6l-5.6-28.1l-26.5-0.2l-5.6,28.3H89.3
+		C89.3,220.2,117.4,88.9,117.4,88.9z M126.6,126.4l-9.4,47.1h19l-9.3-47.1C126.9,126.4,126.6,126.4,126.6,126.4z"/>
+	<path id="L-Letter-N" class="st2" d="M172.7,88.9h18.8l18.8,65.7V88.9H229v131.3h-18.8l-18.8-65.7v65.7h-18.8V88.9H172.7z"/>
+	<path id="L-Letter-D" class="st2" d="M246.1,88.9h37.5c5.1,0,9.5,1.8,13.1,5.4s5.4,8.1,5.4,13.3v93.9c0,5.1-1.8,9.5-5.4,13.1
+		s-8,5.4-13.1,5.4h-37.5V88.9z M264.7,107.5v94.1h11.8c2,0,3.7-0.7,5.1-2.1c1.4-1.4,2.1-3.1,2.1-5.1v-79.8c0-2-0.7-3.7-2.1-5.1
+		s-3.1-2.1-5.1-2.1h-11.8V107.5z"/>
+	<path id="A-Letter-A" class="st2" d="M210.5,281.9h18.6l28.1,131.3h-18.6l-5.6-28.1l-26.5-0.2l-5.6,28.3h-18.6L210.5,281.9
+		L210.5,281.9z M219.7,319.4l-9.4,47.1h19l-9.3-47.1H219.7z"/>
+	<path id="A-Letter-G" class="st2" d="M273.7,290.2c5.5-5.5,12.1-8.3,19.9-8.3s14.4,2.8,19.9,8.3s8.2,12.2,8.2,19.9H303
+		c0-2.6-0.9-4.9-2.7-6.7s-4.1-2.7-6.7-2.7s-4.8,0.9-6.6,2.7c-1.8,1.8-2.7,4.1-2.7,6.7v75c0,2.6,0.9,4.8,2.7,6.6
+		c1.8,1.8,4,2.7,6.6,2.7s4.9-0.9,6.7-2.7c1.8-1.8,2.7-4,2.7-6.6V357h-9.4v-18.8h28.1v46.9c0,7.8-2.7,14.4-8.2,19.9
+		s-12.1,8.2-19.9,8.2s-14.4-2.7-19.9-8.2s-8.2-12.1-8.2-19.9v-75C265.4,302.3,268.2,295.7,273.7,290.2z"/>
+	<path id="A-Letter-E" class="st2" d="M338.5,413.2V281.9h56.3v18.8h-37.5v37.5h28.1V357h-28.1v37.4h37.5v18.8L338.5,413.2
+		L338.5,413.2z"/>
+	<path id="A-Letter-N" class="st2" d="M406.4,281.9h18.8l18.8,65.7v-65.7h18.8v131.3H444l-18.8-65.7v65.7h-18.8L406.4,281.9
+		L406.4,281.9z"/>
+	<path id="A-Letter-C" class="st2" d="M486.9,290.2c5.5-5.5,12.1-8.3,19.9-8.3s14.4,2.8,19.9,8.3s8.2,12.2,8.2,19.9v9.3h-18.7v-9.3
+		c0-2.6-0.9-4.9-2.7-6.7c-1.8-1.8-4.1-2.7-6.7-2.7s-4.8,0.9-6.6,2.7c-1.8,1.8-2.7,4.1-2.7,6.7v75c0,2.6,0.9,4.8,2.7,6.6
+		c1.8,1.8,4,2.7,6.6,2.7s4.9-0.9,6.7-2.7c1.8-1.8,2.7-4,2.7-6.6v-9.4h18.7v9.4c0,7.8-2.7,14.4-8.2,19.9s-12.1,8.2-19.9,8.2
+		c-7.8,0-14.4-2.7-19.9-8.2s-8.2-12.1-8.2-19.9v-75C478.7,302.3,481.4,295.7,486.9,290.2L486.9,290.2z"/>
+	<path id="A-Letter-Y" class="st2" d="M541,281.9h19l14.1,56.1l13.8-56.1h19l-23.4,93.9v37.5h-19v-37.5L541,281.9z"/>
+</g>
+<script  xlink:href="vanilla-tilt.min.js"></script>
 </svg>
