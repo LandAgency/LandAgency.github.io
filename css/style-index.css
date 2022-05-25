@@ -245,7 +245,8 @@ a:hover{
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
-  background: url(../images/loft-01.jpg);
+filter: grayscale(20%);
+  background: url(../images/loft-02.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
